@@ -9,7 +9,7 @@ public class DemoController {
     @GetMapping(value = "/people")
     public People getPeople(){
         People people = new People();
-        people.setName("王二123的");
+        people.setName("赵四");
         people.setAge(2000);
         people.setSex("男");
         return people;
